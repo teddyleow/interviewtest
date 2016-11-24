@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/master.css">
+  <script>
+  function detectBrowser() {
+    var useragent = navigator.userAgent;
+    var mapdiv = document.getElementById("map");
+
+    if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+      mapdiv.style.width = '100%';
+      mapdiv.style.height = '100%';
+    } else {
+      mapdiv.style.width = '600px';
+      mapdiv.style.height = '800px';
+    }
+  }
+</script>
+</head>
+<body>
+  <div id="map"></div>
+
+
+  <script src="http://maps.google.cn/maps/api/js?key=AIzaSyBMTZ4NqoNjRkCzcD0zbEOpvmH38nzDHSY&language=zh-CN" type="text/javascript"></script>
+  <!-- <script src="/js/google-map.js" charset="utf-8"></script> -->
+  <script src="./js/zepto.js" charset="utf-8"></script>
+  <script src="./js/basic.js" charset="utf-8"></script>
+</body>
+</html>
