@@ -1,5 +1,6 @@
-# gittest-hello
-just another
+# run foodtruck service
+this is a java maven project, open it in intelli IDEA and run, the service will be avaliable at http://localhost:8080/location 
 
 
-juset we be sewqfw  read 
+# run triangle
+this is a c++ project, download it in linux and make, the binary will be avaliable in "bin" directory.
