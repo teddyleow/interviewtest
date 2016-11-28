@@ -1,7 +1,7 @@
 # run foodtruck service
 this is a java maven project.
 open it in intelli IDEA
-edit Run/Debug Configrations and change Main class to "com.example.ColTest"
+edit Run/Debug Configrations and change Main class to "com.example.DemoApplication"
 run the project and open the chrome browser, the service will be avaliable at http://localhost:8080/location 
 
 
