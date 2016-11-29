@@ -1,8 +1,11 @@
 # run foodtruck service
 this is a java maven project.
-open it in intelli IDEA
-edit Run/Debug Configrations and change Main class to "com.example.DemoApplication"
-run the project and open the chrome browser, the service will be avaliable at http://localhost:8080/location 
+open the project in intelli IDEA, open the dialog "File->Open" and open "YOUR_PATH\interviewtest-master\foodtruck\pom.xml" 
+wait for the IDE to download dependency jars
+open the dialog "Run->Edit Configrations..." and click the green plus butten to add new configration of kind "Spring Boot"
+change "Main class" to "com.example.DemoApplication" in the new configration
+run the project through the green begin button at the top right corner 
+open the chrome browser, the service will be avaliable at http://localhost:8080/index.html 
 
 
 # run triangle
